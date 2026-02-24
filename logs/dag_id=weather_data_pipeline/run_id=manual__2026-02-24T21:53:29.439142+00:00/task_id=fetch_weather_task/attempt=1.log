@@ -1,0 +1,12 @@
+{"timestamp":"2026-02-24T21:53:41.214398Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-02-24T21:53:41.216728Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/weather_dag.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-02-24T21:53:41.246390Z","level":"warning","event":"The `airflow.operators.python.PythonOperator` attribute is deprecated. Please use `'airflow.providers.standard.operators.python.PythonOperator'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/weather_dag.py","lineno":2,"logger":"py.warnings"}
+{"timestamp":"2026-02-24T21:53:41.326195Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2026-02-24T21:53:41.327705Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2026-02-24T21:53:41.327842Z","level":"info","event":"Current task name:fetch_weather_task","logger":"task.stdout"}
+{"timestamp":"2026-02-24T21:53:41.329854Z","level":"info","event":"Dag name:weather_data_pipeline","logger":"task.stdout"}
+{"timestamp":"2026-02-24T21:53:42.550145Z","level":"info","event":"Weather data saved successfully!","logger":"task.stdout"}
+{"timestamp":"2026-02-24T21:53:42.555908Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":230}
+{"timestamp":"2026-02-24T21:53:42.632095Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2026-02-24T21:53:42.633169Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2026-02-24T21:53:42.636110Z","level":"info","event":"Task operator:<Task(PythonOperator): fetch_weather_task>","logger":"task.stdout"}
